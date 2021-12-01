@@ -1,0 +1,20 @@
+Part 1: SWAPI
+1. https://swapi.dev/api/people/4
+2. https://swapi.dev/api/planets/2
+3. https://swapi.dev/api/starships/10
+4. https://swapi.dev/api/people/2, https://swapi.dev/api/species/2/
+5. https://swapi.dev/api/people/10, https://swapi.dev/api/films/1, https://swapi.dev/api/films/2,https://swapi.dev/api/films/3,https://swapi.dev/api/films/4,https://swapi.dev/api/films/5,https://swapi.dev/api/films/6
+
+6. https://swapi.dev/api/starships/?search=millennium falcon
+
+Part 2: Social Mountain
+1. Requires a Body and is expent an object with a text key and value.
+2. Returns an array of posts.
+3. https;//practiceapi.devmountain.com/api/post/:id
+4. 200 or 409
+5. https://practiceapi.devmountain.com/api/posts/   {"text": "Senad Zenkovic"}
+6. https://practiceapi.devmountain.com/api/posts/?id=303, {"text": "Clear"}
+7. https://practiceapi.devmountain.com/api/posts/filter/?text=blue
+8. application/json; charset=utf-8
+9. Request was missing req.query.id or req.body.text
+10. Because there is no error codes setup to stop it if the get request contains queries.
