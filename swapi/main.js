@@ -15,10 +15,10 @@ const residentThenCallback = (res) => {
   htmlDocu.appendChild(nameH2);
 };
 
-const clicked = () => {
+const getResidents = () => {
   axios
     .get("https://swapi.dev/api/planets/?search=alderaan")
     .then(residentsCallback);
 };
 
-getResidentsBtn.addEventListener("click", clicked);
+getResidentsBtn.addEventListener("click", getResidents);
